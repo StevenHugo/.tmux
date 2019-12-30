@@ -294,3 +294,6 @@ tmux_conf_copy_to_os_clipboard=false
 
 # move status line to top
 #set -g status-position top
+
+# set default shell
+set-option -g default-shell $SHELL
